@@ -1,3 +1,6 @@
+/**
+计时工具类，这不是倒计时，可以解决屏幕息屏后及时不准确的问题
+**/
 export class Timer {
     private second: number = 0;
     private step: number;
